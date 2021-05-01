@@ -1,0 +1,238 @@
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffffff ;
+}
+
+#navigation-list {
+    height: 50px;
+}
+
+button {
+    background-color: #4242f3;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+} 
+
+nav ul li {
+    margin: 12px 12px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+svg {
+    height: 30px;
+    margin: 0.6em;
+    cursor: pointer;
+}
+
+div.main-wrapper ul li button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background: #2b7de9;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .25px;
+    padding: 9px 23px;
+    position: relative;
+    top: -40%;
+    right: -1%;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+}
+
+img {
+    height: 120px;
+    width: 350px;
+    position: absolute;
+    left: 40%;
+    top: 17%;
+}
+
+div.search-box {
+    height: 130px;
+    width: 500px;
+    border: none;
+    margin: auto;
+    margin-top: 250px;
+    padding-right: 300px;
+}
+
+input[type="text"] {
+    border-radius: 30px;
+    border: 1px solid #e0dede;
+    color: rgba(0, 0, 0, .87);
+    outline: none;
+    height: 50px;
+    width: 690px;
+    font-size: 16px;
+    margin: 40px 10px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: left;
+    
+}
+
+div.search-box svg {
+    height: 1.8em;
+    position: relative;
+    bottom: 69%;
+    left: 3.5%;
+}
+
+::placeholder {
+    font-size: 18px;
+    color: #9aa0a6;
+    cursor: none;
+    padding-left: 2px;
+}
+
+div.search-lucky span button {
+    margin: auto;
+}
+
+div.search-lucky {
+    border-radius: 4px;
+    color: #3c4043;
+    margin-top: -20px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 90px;
+    min-width: 54px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+    padding: 0 2px;
+    margin: 11px 4px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+div.offering ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+div.offering ul li {
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+div.offering ul li a {
+    text-decoration: none;
+}
+
+div.body-space {
+    height: 190px;
+    border: none;
+}
+
+div.footer-nigeria {
+    background: #f5f5f5;
+    font-size: 18px;
+    height: 30px;
+    border-bottom: 1px solid rgba(197, 196, 196, 0.54);
+    padding: 15px 35px;
+    margin-top: 85px;
+    color: #70757a;
+}
+
+div.footer-last {
+    display: flex;
+}
+
+div.footer-services {
+    background: #f5f5f5;
+    border: none;
+    height: 60px;
+    width: 800px;
+}
+
+div.footer-services ul {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin-top: 35px;
+}
+
+div.footer-services ul li {
+    font-size: 18px;
+    padding-right: 25px;
+}
+
+div.footer-services ul li a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+div.footer-info {
+    background: #f5f5f5;
+    font-size: 20px;
+    height: 25px;
+    width: 300px;
+    border: none;
+    text-align: center;
+    padding-top: 35px;
+    color: #70757a;
+}
+
+div.footer-settings {
+    background: #f5f5f5;
+    border: none;
+    height: 60px;
+    width: 800px;
+    align-self: right;
+    align-content: right;
+    justify-self: right;
+    
+}
+
+div.footer-settings ul {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+
+div.footer-settings ul li {
+    padding: 0 20px 0 25px;
+}
+
+div.footer-settings ul li a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+div.footer-settings ul li button {
+    font-size: 18px;
+    color: #70757a;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
